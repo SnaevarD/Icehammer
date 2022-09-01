@@ -1,0 +1,21 @@
+// Fonts
+
+// @mixin font-<name of font>-<font weight> {
+//  font-family: <name>, <type>;
+//  font-style: <style>;
+//  font-weight: <weight>
+//}
+
+@mixin font-default-regular {
+ font-family: 'Raleway', sans-serif;
+ font-style: regular;
+ font-weight: 400;
+}
+
+// Typography mixins
+@mixin basic-font-style {
+  @include font-default-regular;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.8rem;
+}

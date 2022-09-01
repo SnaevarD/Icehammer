@@ -1,0 +1,12 @@
+@use "../settings/mixins" as mix;
+
+.btn {
+  // Base styles for elements that should look like a button
+  display: block;
+  // If a link is styled like a button
+  text-decoration: none; 
+}
+
+button {
+	@include mix.button-base;
+ }

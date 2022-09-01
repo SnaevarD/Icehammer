@@ -1,0 +1,8 @@
+a, .link {
+  color: $link-blue;
+  cursor: pointer;
+
+  &:hover {
+    color: $link-blue--hover;
+  }
+}

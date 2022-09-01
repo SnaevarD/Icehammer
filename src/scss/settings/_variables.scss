@@ -1,0 +1,16 @@
+// Variable settings
+@forward "../design-tokens/_colors.scss";
+@forward "../design-tokens/_layout.scss";
+@forward "../design-tokens/_media-queries.scss";
+@forward "../design-tokens/_spacing.scss";
+
+// Transitions
+
+//--------------------
+// Transitions
+//--------------------
+$cubic: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+$transition: .5s $cubic;
+$transition-slow: .8 $cubic;
+$transition-fast: .3 $cubic;

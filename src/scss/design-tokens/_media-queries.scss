@@ -1,0 +1,44 @@
+//--------------------
+// Media queries
+//--------------------
+$laptop: 136.6rem;
+$tablet-h: 102.4rem;
+$tablet-v: 76.8rem;
+$mobile: 48rem;
+
+// Media queries
+
+// Laptop 1366px
+@mixin laptop {
+  @media only screen and (max-width: $laptop) {
+    @content;
+  }
+}
+
+// Tablet-h 1024px
+@mixin tablet-h {
+  @media only screen and (max-width: $tablet-h) {
+    @content;
+  }
+}
+
+// Tablet-v 768px
+@mixin tablet-v {
+  @media only screen and (max-width: $tablet-v) {
+    @content;
+  }
+}
+
+// Phone 480px
+@mixin phone {
+  @media only screen and (max-width: $phone) {
+    @content;
+  }
+}
+
+// Minimize the amount of non-essential motions
+@mixin reduced-motion {
+  @media (prefers-reduced-motion) {
+    @content;
+  }
+}

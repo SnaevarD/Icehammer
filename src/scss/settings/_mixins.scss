@@ -1,0 +1,66 @@
+//Mixins
+
+// SVG
+// Aspect ratios
+// Buttons
+
+// SVG
+@mixin svg-color($color) {
+  svg {
+    fill: $color;
+    stroke: $color;
+  }
+}
+
+@mixin svg-size($height, $width) {
+  svg {
+    max-height: $height;
+    max-width: $width;
+  }
+}
+
+// Aspect ratios
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: calc(($height / $width) * 100%);
+  }
+  
+  &__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+// Buttons
+@mixin buttonOverwrite() {
+	position: relative;
+	border: none;
+	cursor: pointer;
+	&:focus {
+		outline: 1px solid transparent;
+	}
+}
+
+@mixin button-base {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  
+  &:focus {
+    outline: 1px solid transparent;
+  }
+  
+  :focus-visible {
+    outline: 1px solid inherit;
+  }
+}

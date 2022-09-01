@@ -1,0 +1,24 @@
+@use "../design-tokens/layout" as lay;
+
+.container {
+  width: 100%;
+  max-width: lay.$layout;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  &--small {
+    max-width: lay.$layout-small;
+  }
+
+  &--medium {
+    max-width: lay.$layout-medium;
+  }
+
+  &--large {
+    max-width: lay.$layout-large;
+  }
+}
+
+.flex {
+  display: flex;
+}

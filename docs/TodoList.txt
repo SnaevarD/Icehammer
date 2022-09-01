@@ -1,0 +1,11 @@
+
+Things to do
+- Article details css
+- Tournament Details css (sama og article nema linkur á bcp & paypal? 
+                          Mögulega contact listi & fb event linnkur?)
+- Mission Pack
+- Frontpage banner link to Tournament
+- Mobile passable overhall
+
+Extras:
+- 4 Boxes under banner - Image link to Tournament/Article/Mission Pack/About'

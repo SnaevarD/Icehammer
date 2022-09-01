@@ -1,0 +1,10 @@
+
+@use "../settings/mixins" as mix; 
+
+.aspect-16-9 {
+  @include mix.aspect-ratio(16, 9);
+}
+
+.aspect-4-3 {
+  @include mix.aspect-ratio(4, 3);
+}

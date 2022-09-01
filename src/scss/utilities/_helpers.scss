@@ -1,0 +1,97 @@
+@use "../design-tokens/media-queries" as med;
+
+// Helpers
+
+// Screen readers
+// Text meant only for screen readers.
+.sr-only {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+// Hide elements visually but keep them available to screen readers.
+.sr-only:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+// Prevent user form selecting text
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+// State helpers
+.hidden {
+  display: none !important;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-50 {
+  max-width: 50%;   
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+// Desktop only
+.hidden-in-desktop {
+  @media screen and (min-width: med.$laptop) {
+      display: none !important;
+  }
+}
+
+// Laptop only
+.hidden-in-laptop {
+  @media screen and (max-width: calc(#{med.$laptop} - 1px)) and (min-width: med.$tablet-h) {
+      display: none !important;
+  }
+}
+
+// Tablet only
+.hidden-in-tablet {
+  @media screen and (max-width: calc(#{med.$tablet-h} - 1px)) and (min-width: calc(#{med.$mobile} + 1px)) {
+      display: none !important;
+  }
+}
+
+// Mobile only
+.hidden-in-mobile {
+  @media screen and (max-width: med.$mobile) {
+      display: none !important;
+  }
+}
