@@ -7,8 +7,7 @@
 		<div class="container container--large">
 			<div class="logo flex flex-center">
 				<router-link to="/">
-					<img src="@/assets/icons/icehammer-hammer.svg" alt=""/>
-					<!-- ICE -->
+					<img src="@/assets/icons/icehammer-hammer.svg" alt="logo" />
 				</router-link>
 			</div>
 			<div>

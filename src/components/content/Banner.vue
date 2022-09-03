@@ -21,7 +21,7 @@
     <ul>
       <li>Location Pack: <a href="/public/Icehammer-GT-II-2022-Location-Pack.pdf" download>Here</a></li>
       <li>Tournament Pack: <a href="/public/Icehammer-GT-II-2022-Tournament-Pack.pdf" download>Here</a></li>
-      <li>Terrain & Mission Pack: <a href="">Here</a></li>
+      <li>Terrain & Mission Pack: <a href="/public/Icehammer-GT-II-2022-Mission-and-Tournament-Pack.pdf" download>Here</a></li>
     </ul>
     <div class="info">
       <h2 class="bold">What:</h2>
@@ -41,7 +41,7 @@
     </div>
     <div class="info">
       <h2 class="bold">I have questions:</h2>
-      <p>Contact us <a href="">here!</a></p>
+      <p>Contact us <a href="mailto:icehammer@gmail.com?subject=Icehammer GT II">here!</a></p>
     </div>
   </div>
 </template>
