@@ -1,5 +1,5 @@
 import Article from "@/components/article/models/article";
-import ArticleAPI from "@/api/articleApi";
+import ArticleAPI from "../api/articleAPI";
 import { ID } from "@/models/generic";
 import { computed, ComputedRef } from "vue";
 import { useArticlesStore } from "@/store/article";
@@ -24,7 +24,7 @@ export default function useArticle() : useArticle {
     const response = await ArticleAPI.getArticleList();
     console.log("response", response);
     console.log("articleID", articleID);
-    let selectedArticle = response.find((data) => { return data.id == articleID })
+    let selectedArticle = response.find((data : Article) => { return data.id == articleID })
     console.log("selectedArticle", selectedArticle);
     if( selectedArticle ) {
       articleStore.articleLoaded = true;

@@ -1,5 +1,5 @@
 import Tournament from "@/components/tournament/models/tournament";
-import TournamentAPI from "@/api/tournamentApi";
+import TournamentAPI from "../api/tournamentAPI";
 import { ID } from "@/models/generic";
 import { computed, ComputedRef } from "vue";
 import { useTournamentsStore } from "@/store/tournament";
@@ -24,7 +24,7 @@ export default function useTournament() : useTournament {
     const response = await TournamentAPI.getTournamentList();
     console.log("response", response);
     console.log("tournamentID", tournamentID);
-    let selectedTournament = response.find((data) => { return data.id == tournamentID })
+    let selectedTournament = response.find((data : Tournament) => { return data.id == tournamentID })
     console.log("selectedTournament", selectedTournament);
     if( selectedTournament ) {
       tournamentStore.tournamentLoaded = true;
