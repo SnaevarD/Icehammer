@@ -41,7 +41,7 @@
     </div>
     <div class="info">
       <h2 class="bold">I have questions:</h2>
-      <p>Contact us <a href="mailto:icehammer@gmail.com?subject=Icehammer GT II">here!</a></p>
+      <p>Contact us at <a href="mailto:icehammer@gmail.com?subject=Icehammer GT II">icehammer@gmail.com</a></p>
     </div>
   </div>
 </template>
@@ -78,6 +78,8 @@
   }
   .banner {
     background-image: url('@/assets/images/idno.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
     height: 80vh;
     max-height: 1200px;
     margin: 80px 40px;
@@ -112,6 +114,17 @@
     font-size: 32px;
   }
 
+  @media only screen and (max-width: 1180px) {
+    .banner {
+      .info {
+        top: 40%;
+        .title {
+          font-size: 7rem;
+        }
+      }
+    }
+  }
+
   @media only screen and (max-width: 720px) {
     .banner {
       height: 420px;
@@ -119,10 +132,10 @@
       background-size: cover;
       margin: 80px 0px 40px 0;
       .info {
-        top: 10%;
+        top: 40%;
         padding: 0 20px;
         .title {
-          font-size: 50px;
+          font-size: 5rem;
           line-height: 7rem;
         }
         
