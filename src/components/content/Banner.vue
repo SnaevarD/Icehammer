@@ -1,5 +1,4 @@
 <script setup lang="ts">
- 
 </script>
 
 <template>
@@ -18,8 +17,8 @@
     <p>This tournament will mark one of two truly international Warhammer 40.000 tournaments in Iceland as we will have open registration for all players, both foreign and domestic.</p>
     <p>The tournament will be a two-day event with five games total and held at Iðnó – Culture house (Vonarstræti 3, 101 Reykjavík) in the center of Reykjavik. A fantastic venue with a long history of serving all sorts of events and is located in the heart of Reykjavik.</p>
     <ul>
-      <li>Location Pack: <a href="src/assets/Icehammer-GT-II-2022-Location-Pack.pdf" download>Here</a></li>
-      <li>Tournament Pack: <a href="src/assets/Icehammer-GT-II-2022-Tournament-Pack.pdf" download>Here</a></li>
+      <li>Location Pack: <a href="public/Icehammer-GT-II-2022-Location-Pack.pdf" download>Here</a></li>
+      <li>Tournament Pack: <a href="assets/Icehammer-GT-II-2022-Tournament-Pack.pdf" download>Here</a></li>
       <li>Terrain & Mission Pack: <a href="src/assets/Icehammer-GT-II-2022-Mission-and-Tournament-Pack.pdf" download>Here</a></li>
     </ul>
     <div class="info">
