@@ -11,9 +11,9 @@
 				</router-link>
 			</div>
 			<div>
-				<!-- <router-link to="/tournament">Tournaments</router-link> -->
-				<!-- <router-link to="/article">News</router-link> -->
-				<!-- <router-link to="/mission-pack">Mission Packs</router-link> -->
+				<!-- <router-link to="/tournament">Tournaments</router-link>
+				<router-link to="/article">News</router-link>
+				<router-link to="/mission-pack">Mission Packs</router-link> -->
 				<router-link to="/about">About us</router-link>
 			</div>
 		</div>

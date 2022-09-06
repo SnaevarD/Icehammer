@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-  const imgPrefix = "src/assets/images/about/";
 </script>
 
 <template>
@@ -18,10 +17,10 @@
     <div>
       <h2 class="h2">GT I</h2>
       <p>ICE HAMMER held the first Warhammer 40.000 Grand Tournament in Iceland in nearly a decade with numerous attendees battling against each other’s armies. Old and new, people had a blast pitting their skills against worthy opponents vying for award prizes provided by Nexus and Land og Töfrar.</p>
-      <img :src="imgPrefix + 'GT1.png'" alt="" />
+      <img src="@/assets/images/about/GT1.png" alt="" />
       <p>The Grand Tournament was a culmination of a lot of work by ICE HAMMER and we are glad to see that it was well received by the local community as well as foreign attendees who wanted to experience the local Warhammer scene. We are also proud to announce that we broke the record of the number of attendees.</p>
       <div class="flex textImgContainer">
-        <img class="img-50" :src="imgPrefix + 'Winner&Tau.png'" alt="" />
+        <img class="img-50" src="@/assets/images/about/Winner&Tau.png" alt="" />
         <div>
           <h3 class="h4">The top 3 winners are as follows:</h3>
           <ol>
@@ -37,14 +36,14 @@
       <h2 class="h2">WTC</h2>
       <p>With the summer coming to a close, ICE HAMMER sent its national team forward into battle, participating in the WTC after an extended break.</p>
       <div class="flex container--medium">
-        <img :src="imgPrefix + 'WTC.png'" alt="Legend" />
-        <img :src="imgPrefix + 'WTC_Hall.png'" alt="" />
+        <img src="@/assets/images/about/WTC.png" alt="Legend" />
+        <img src="@/assets/images/about/WTC_Hall.png" alt="" />
       </div>
       <p>An early vanguard went ahead and competed in local RTTs that were held before the main event as well as finish the armies, with the latter part of our forces arriving a day before the first day of WTC. The team was led by our trusty captain Heiðar Þór who helped train the team which saw an overall great improvement compared to the last time the country competed in Serbia, landing us in 21st place out of 28.</p>
       <p>Fun was had by all, and the team’s excitement on being present at such an amazing event was evident. We look forward to many international tournaments in the future and look forward to seeing you there.</p>
       <div class="flex container--medium">
-        <img :src="imgPrefix + 'Legend.png'" alt="Legend" />
-        <img :src="imgPrefix + 'Team_Iceland2.png'" alt="" />
+        <img src="@/assets/images/about/Legend.png" alt="Legend" />
+        <img src="@/assets/images/about/Team_Iceland2.png" alt="" />
       </div>
     </div>
   </div>
