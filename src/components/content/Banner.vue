@@ -1,4 +1,7 @@
 <script setup lang="ts">
+  import pdf_GT_Location from '@/assets/pdf/Icehammer-GT-II-2022-Location-Pack.pdf';
+  import pdf_GT_TournamentPack from '@/assets/pdf/Icehammer-GT-II-2022-Tournament-Pack.pdf';
+  import pdf_GT_Mission_and_TournamentPack from '@/assets/pdf/Icehammer-GT-II-2022-Mission-and-Tournament-Pack.pdf';
 </script>
 
 <template>
@@ -16,10 +19,10 @@
     <p>On the weekend of October 29th and 30th , we will see the return of the Icelandic GT Tournament scene in Warhammer 40.000 where the best of the best will fight out for the title as the best ICE HAMMER player.</p>
     <p>This tournament will mark one of two truly international Warhammer 40.000 tournaments in Iceland as we will have open registration for all players, both foreign and domestic.</p>
     <p>The tournament will be a two-day event with five games total and held at Iðnó – Culture house (Vonarstræti 3, 101 Reykjavík) in the center of Reykjavik. A fantastic venue with a long history of serving all sorts of events and is located in the heart of Reykjavik.</p>
-    <ul>
-      <li>Location Pack: <a href="public/Icehammer-GT-II-2022-Location-Pack.pdf" download>Here</a></li>
-      <li>Tournament Pack: <a href="assets/Icehammer-GT-II-2022-Tournament-Pack.pdf" download>Here</a></li>
-      <li>Terrain & Mission Pack: <a href="src/assets/Icehammer-GT-II-2022-Mission-and-Tournament-Pack.pdf" download>Here</a></li>
+    <ul class="flexlist">
+      <li>Location Pack: <a :href="pdf_GT_Location" download>Here</a></li>
+      <li>Tournament Pack: <a :href="pdf_GT_TournamentPack" download>Here</a></li>
+      <li>Terrain & Mission Pack: <a :href="pdf_GT_Mission_and_TournamentPack" download>Here</a></li>
     </ul>
     <div class="info">
       <h2 class="bold">What:</h2>
@@ -86,6 +89,13 @@
     li {
       margin: 15px 0;
     }
+  }
+
+  .flexlist {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .textContainer {

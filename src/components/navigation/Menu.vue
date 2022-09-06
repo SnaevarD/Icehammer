@@ -21,6 +21,8 @@
 </template>
 
 <style scoped lang="scss">
+	$link-blue--hover: rgb(76, 234, 234);
+	
 	.menu {
 		height: 120px;
 		width: 100%;
@@ -36,7 +38,7 @@
 		a {
 			margin: 30px;
 			font-size: 1.6rem;
-			color: $white;
+			color: white;
 
 			&:hover {
 				color: $link-blue--hover;
