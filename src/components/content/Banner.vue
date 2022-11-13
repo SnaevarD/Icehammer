@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  import pdf_GT_Location from '@/assets/pdf/Icehammer-GT-II-2022-Location-Pack.pdf';
-  import pdf_GT_TournamentPack from '@/assets/pdf/Icehammer-GT-II-2022-Tournament-Pack.pdf';
-  import pdf_GT_Mission_and_TournamentPack from '@/assets/pdf/Icehammer-GT-II-2022-Mission-and-Tournament-Pack.pdf';
+  import pdf_GT_Location from '@/assets/pdf/Icehammer-GT-III-2023-Location-Pack.pdf';
+  import pdf_GT_TournamentPack from '@/assets/pdf/Icehammer-GT-III-2023-Tournament-Pack.pdf';
+  import pdf_GT_Mission_and_TournamentPack from '@/assets/pdf/Icehammer-GT-III-2023-Mission-and-Terrain-Pack.pdf';
 </script>
 
 <template>
@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="textContainer container container--medium">
-    <p>On the weekend of October 29th and 30th , we will see the return of the Icelandic GT Tournament scene in Warhammer 40.000 where the best of the best will fight out for the title as the best ICE HAMMER player.</p>
+    <p>On the weekend of April 29th and 30th , we will see Iceland´s biggest  Warhammer 40.000 event of the year. where the best of the best will fight out for the title as the best ICE HAMMER player.</p>
     <p>This tournament will mark one of two truly international Warhammer 40.000 tournaments in Iceland as we will have open registration for all players, both foreign and domestic.</p>
     <p>The tournament will be a two-day event with five games total and held at Iðnó – Culture house (Vonarstræti 3, 101 Reykjavík) in the center of Reykjavik. A fantastic venue with a long history of serving all sorts of events and is located in the heart of Reykjavik.</p>
     <ul class="flexlist">
@@ -26,11 +26,11 @@
     </ul>
     <div class="info">
       <h2 class="bold">What:</h2>
-      <p>The ICE HAMMER ITC GT II is a 2,000 point matched play event</p>
+      <p>The ICE HAMMER ITC GT III is a 2,000 point matched play event</p>
     </div>
     <div class="info">
       <h2 class="bold">When:</h2>
-      <p>October 29th - 30th</p>
+      <p>April 29th and 30th 2023</p>
     </div>
     <div class="info">
       <h2 class="bold">Where:</h2>
@@ -38,27 +38,27 @@
     </div>
     <div class="info">
       <h2 class="bold">Where do I register:</h2>
-      <a href="https://www.bestcoastpairings.com/eventlanding/vlxmxrye?embed=false&fbclid=IwAR13CvPMJp8aOKwglXWC4GR7y16NrvbvsTCQFRF4jKqo66fCJ393iVlKkXk">Right here!</a>
+      <a href="https://amplify.bestcoastpairings.com/event/8Q6MLWJFN3">Right here!</a>
     </div>
     <div class="info">
       <h2 class="bold">Where can I get tickets:</h2>
-      <p>Send 60 USD / EUR via this <a href="https://paypal.me/ICEHAMMER40K?country.x=IS&locale.x=en_US" target="_blank">link</a></p>
+      <p>Send 65 USD / EUR  or 55 GBP via this <a href="https://paypal.me/ICEHAMMER40K?country.x=IS&locale.x=en_US" target="_blank">link</a></p>
       <p>Add your email in the comments/description.</p>
       <br/>
       <p>Or</p>
       <br/>
-      <p>Send 8.500 kr. via Bank transfer to:</p>
+      <p>Send 9.500 kr. via Bank transfer to:</p>
       <p>Reiknr: 0511-26-015297</p>
       <p>Kt: 281179-5519</p>
       <p>Remember to add your email in the comments/description.</p>
     </div>
     <div class="info">
       <h2 class="bold">I have questions:</h2>
-      <p>Contact us at <a href="mailto:IcehammerGT@gmail.com?subject=Icehammer GT II">IcehammerGT@gmail.com</a></p>
+      <p>Contact us at <a href="mailto:IcehammerGT@gmail.com?subject=Icehammer GT III">IcehammerGT@gmail.com</a></p>
     </div>
     <div class="info">
       <h2 class="bold">Where can I share information about the event:</h2>
-      <a href="https://fb.me/e/1y4WrVX12">https://fb.me/e/1y4WrVX12</a>
+      <a href="https://fb.me/e/73HUx9jgc">https://fb.me/e/73HUx9jgc</a>
     </div>
   </div>
 </template>
