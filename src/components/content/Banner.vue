@@ -34,7 +34,7 @@
     </div>
     <div class="info">
       <h2 class="bold">When:</h2>
-      <p>April 29th and 30th 2023</p>
+      <p>April 15th and 16th 2023</p>
     </div>
     <div class="info">
       <h2 class="bold">Where:</h2>
