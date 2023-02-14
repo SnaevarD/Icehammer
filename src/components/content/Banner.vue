@@ -16,7 +16,11 @@
     </div>
   </div>
   <div class="textContainer container container--medium">
-    <p>On the weekend of April 29th and 30th , we will see Iceland´s biggest  Warhammer 40.000 event of the year. where the best of the best will fight out for the title as the best ICE HAMMER player.</p>
+    <p>On the weekend of April 15 th and 16th , we will see Iceland´s biggest Warhammer 40.000 event of the year. where the best of the best will fight out for the title as the best ICE HAMMER player.</p>
+    <p>This event is a Qualifier for the World Championship of Warhammer 2023 in Atlanta USA. 3 players will qualify, see the tournament pack for further information.</p>
+    <a class="a" target="_blank" href="https://www.warhammer-community.com/2023/01/06/announcing-the-world-championships-of-warhammer/
+">https://www.warhammer-community.com/2023/01/06/announcing-the-world-championships-of-warhammer/
+</a>
     <p>This tournament will mark one of two truly international Warhammer 40.000 tournaments in Iceland as we will have open registration for all players, both foreign and domestic.</p>
     <p>The tournament will be a two-day event with five games total and held at Iðnó – Culture house (Vonarstræti 3, 101 Reykjavík) in the center of Reykjavik. A fantastic venue with a long history of serving all sorts of events and is located in the heart of Reykjavik.</p>
     <ul class="flexlist">
@@ -79,8 +83,12 @@
     margin-bottom: 10px;
   }
 
-  p {
+  p, .a {
     margin-bottom: 15px;
+  }
+
+  .a {
+    display: block;
   }
 
   ul {
